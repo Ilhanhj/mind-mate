@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 4% 10%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 262 82% 57%;
+    --primary-foreground: 0 0% 98%;
+
+    --secondary: 333 91% 54%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 4% 14%;
+    --muted-foreground: 240 5% 64.9%;
+
+    --accent: 333 91% 54%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 4% 18%;
+    --input: 240 4% 12%;
+    --ring: 262 82% 57%;
+
+    --radius: 1.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 4% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 262 82% 57%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 333 91% 54%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 4% 14%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 333 91% 54%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 4% 18%;
+    --input: 240 4% 12%;
+    --ring: 262 82% 57%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer utilities {
+  .gradient-button {
+    background-image: linear-gradient(
+      to right,
+      hsl(var(--primary)) 30%,
+      hsl(var(--secondary)) 70%,
+      hsl(var(--accent)) 90%
+    );
+    background-size: 200% auto;
+    color: hsl(var(--primary-foreground));
+    font-weight: 600;
+    border: none;
+    transition: all 0.4s ease-out;
+    box-shadow: 0 4px 15px 0 hsl(var(--primary) / 0.3);
+  }
+  .gradient-button:hover {
+    background-position: right center;
+    box-shadow: 0 4px 20px 0 hsl(var(--primary) / 0.4);
+    transform: translateY(-2px);
+  }
+
+  @keyframes aurora {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .bg-aurora {
+    background:
+      radial-gradient(ellipse at 10% 10%, hsl(var(--primary)/0.1) 0%, transparent 40%),
+      radial-gradient(ellipse at 80% 20%, hsl(var(--secondary)/0.1) 0%, transparent 40%),
+      radial-gradient(ellipse at 30% 90%, hsl(var(--accent)/0.1) 0%, transparent 40%),
+      radial-gradient(ellipse at 90% 80%, hsl(var(--primary)/0.1) 0%, transparent 40%);
+    background-size: 400% 400%;
+    animation: aurora 20s ease-in-out infinite;
+  }
+
+  .glassmorphism {
+    background-color: hsl(var(--card) / 0.5);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid hsl(var(--border) / 0.2);
+    box-shadow: 0 8px 32px 0 hsl(var(--primary) / 0.1);
+  }
+}

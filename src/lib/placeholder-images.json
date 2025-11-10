@@ -1,0 +1,82 @@
+{
+  "placeholderImages": [
+    {
+      "id": "onboarding-mood",
+      "description": "An illustration of a person smiling, representing mood tracking.",
+      "imageUrl": "https://images.unsplash.com/photo-1526724038726-3007ffb8025f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYWxtJTIwcGVyc29ufGVufDB8fHx8MTc2MjMxMDMzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calm person"
+    },
+    {
+      "id": "onboarding-breathing",
+      "description": "An illustration showing deep breathing.",
+      "imageUrl": "https://images.unsplash.com/photo-1592895792095-85fa785192a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxicmVhdGhpbmclMjBleGVyY2lzZXxlbnwwfHx8fDE3NjIzMTAzMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "breathing exercise"
+    },
+    {
+      "id": "onboarding-journal",
+      "description": "An illustration of a person writing in a journal.",
+      "imageUrl": "https://images.unsplash.com/photo-1550592704-6c76defa9985?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxqb3VybmFsJTIwd3JpdGluZ3xlbnwwfHx8fDE3NjIyOTUzNzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "journal writing"
+    },
+    {
+      "id": "onboarding-patterns",
+      "description": "An illustration showing charts and graphs, representing discovering patterns.",
+      "imageUrl": "https://images.unsplash.com/photo-1634117622592-114e3024ff27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXRhJTIwY2hhcnR8ZW58MHx8fHwxNzYyMjYzNDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data chart"
+    },
+    {
+      "id": "meditation-morning",
+      "description": "A person meditating in the morning sun.",
+      "imageUrl": "https://images.unsplash.com/photo-1698059378445-4ec6a5449b67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb3JuaW5nJTIwbWVkaXRhdGlvbnxlbnwwfHx8fDE3NjIzMTMwMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "morning meditation"
+    },
+    {
+      "id": "meditation-sleep",
+      "description": "A calm and dark bedroom setting for sleep meditation.",
+      "imageUrl": "https://images.unsplash.com/photo-1531126091498-756f636bc90c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzbGVlcCUyMG1lZGl0YXRpb258ZW58MHx8fHwxNzYyMzEzMDE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sleep meditation"
+    },
+    {
+      "id": "meditation-stress",
+      "description": "A serene natural landscape to relieve stress.",
+      "imageUrl": "https://images.unsplash.com/photo-1522075782449-e45a34f1ddfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHJlc3MlMjByZWxpZWZ8ZW58MHx8fHwxNzYyMjYwOTY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stress relief"
+    },
+    {
+      "id": "onboarding-screen1",
+      "imageUrl": "https://images.unsplash.com/photo-1689020118975-aca4b934831f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYWxtJTIwY2xvdWR8ZW58MHx8fHwxNzYyMzE1NDczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calm cloud",
+      "description": "A floating cloud with soft rays of light and a calm face resting on it."
+    },
+    {
+      "id": "onboarding-screen2",
+      "imageUrl": "https://images.unsplash.com/photo-1743614510539-7b298a64d7fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwZXJzb24lMjB3YXRlcnxlbnwwfHx8fDE3NjIzMTU0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "person water",
+      "description": "A person sitting on a leaf, looking at their reflection in calm water."
+    },
+    {
+      "id": "onboarding-screen3",
+      "imageUrl": "https://images.unsplash.com/photo-1719355399839-12f72314e5f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb2xvcmZ1bCUyMHBsYW50c3xlbnwwfHx8fDE3NjIzMTU0NzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "colorful plants",
+      "description": "Colorful plants sprouting around a smiling character holding a sun."
+    },
+    {
+      "id": "onboarding-illustration-1",
+      "imageUrl": "https://images.unsplash.com/photo-1706490460875-b8cb84f99fcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjYWxtJTIwYWJzdHJhY3R8ZW58MHx8fHwxNzYyMzA3MDc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "calm abstract",
+      "description": "Abstract illustration representing taking a deep breath, with soft flowing lines."
+    },
+    {
+      "id": "onboarding-illustration-2",
+      "imageUrl": "https://images.unsplash.com/photo-1616346322008-86d93f598cb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaW5kZnVsJTIwcGVyc29ufGVufDB8fHx8MTc2MjQxODg1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mindful person",
+      "description": "An abstract figure in a meditative pose, representing self-understanding."
+    },
+    {
+      "id": "onboarding-illustration-3",
+      "imageUrl": "https://images.unsplash.com/photo-1603072256053-532a37024ed4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxnbG93aW5nJTIwcGxhbnR8ZW58MHx8fHwxNzYyMzcyNjA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "glowing plant",
+      "description": "A glowing plant growing, symbolizing personal growth."
+    }
+  ]
+}
