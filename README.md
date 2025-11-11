@@ -1,7 +1,3 @@
-Berikut versi **README.md** siap copy untuk proyek aplikasi kesehatan mental kamu 💆‍♀️✨
-
----
-
 # 🌿 MindMate — Aplikasi Kesehatan Mental Digital
 
 MindMate adalah aplikasi kesehatan mental yang dirancang untuk membantu pengguna mengenali, memahami, dan mengelola suasana hati mereka dengan lebih baik. Dengan desain yang tenang dan interaktif, MindMate menjadi ruang aman untuk refleksi diri dan keseimbangan emosional. 🌙
